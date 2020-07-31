@@ -1,0 +1,4 @@
+#Tue Jul 07 21:41:22 WAT 2020
+base.0=/home/the_lovers/Projets/android/app/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

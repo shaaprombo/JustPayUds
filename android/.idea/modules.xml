@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2006371695/@react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-2006371695/@react-native-firebase_app.iml" group="Projets/@react-native-firebase_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1480062200/@react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/1480062200/@react-native-firebase_auth.iml" group="Projets/@react-native-firebase_auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Projets.iml" filepath="$PROJECT_DIR$/.idea/modules/Projets.iml" group="Projets" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Projets/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2096213193/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/2096213193/react-native-community_masked-view.iml" group="Projets/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2006371695/react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-2006371695/react-native-firebase_app.iml" group="Projets/react-native-firebase_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1480062200/react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/1480062200/react-native-firebase_auth.iml" group="Projets/react-native-firebase_auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1878722514/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1878722514/react-native-gesture-handler.iml" group="Projets/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/466927918/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/466927918/react-native-reanimated.iml" group="Projets/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-914703081/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-914703081/react-native-safe-area-context.iml" group="Projets/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/710163951/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/710163951/react-native-screens.iml" group="Projets/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/438419048/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/438419048/react-native-vector-icons.iml" group="Projets/react-native-vector-icons" />
+    </modules>
+  </component>
+</project>

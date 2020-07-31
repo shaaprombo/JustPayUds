@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">451916249350-fjmbrqmhsvc6n6hduuh409atsuqjdp2h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://reactnative-585b1.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">451916249350</string>
+    <string name="google_api_key" translatable="false">AIzaSyCzZIqCwkYDXPf4f0DQn5osOmzjWUItSRA</string>
+    <string name="google_app_id" translatable="false">1:451916249350:android:9fd806f42fb1ee41cbc687</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCzZIqCwkYDXPf4f0DQn5osOmzjWUItSRA</string>
+    <string name="google_storage_bucket" translatable="false">reactnative-585b1.appspot.com</string>
+    <string name="project_id" translatable="false">reactnative-585b1</string>
+</resources>

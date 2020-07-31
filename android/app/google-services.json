@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "451916249350",
+    "firebase_url": "https://reactnative-585b1.firebaseio.com",
+    "project_id": "reactnative-585b1",
+    "storage_bucket": "reactnative-585b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451916249350:android:9fd806f42fb1ee41cbc687",
+        "android_client_info": {
+          "package_name": "com.esdras.projets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451916249350-fjmbrqmhsvc6n6hduuh409atsuqjdp2h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzZIqCwkYDXPf4f0DQn5osOmzjWUItSRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451916249350-fjmbrqmhsvc6n6hduuh409atsuqjdp2h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
