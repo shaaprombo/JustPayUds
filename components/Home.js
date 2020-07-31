@@ -49,7 +49,7 @@ export default function Home({ navigation }) {
               <Icon active name="pulse" />
               <Text>Services</Text>
             </Button>
-            {'shaaprombo@gmail.com'==user.email ? (
+            {(('shaaprombo@gmail.com'==user.email))||(('kanyoualex@gmail.com'==user.email)) ? (
             <Button light vertical onPress={() => navigation.navigate('Services')} >
             <Icon name="home" />
             <Text>New</Text>
