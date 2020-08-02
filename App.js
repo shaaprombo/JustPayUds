@@ -8,6 +8,7 @@ import Reset from './components/Reset';
 import Services from './components/Services';
 import HomeScreen from './src/HomeScreen/HomeScreen';
 import AdminServices from './components/AdminServices';
+import SplashScreenVideo from './components/SplashScreenVideo';
 
 
 const RootStack = createStackNavigator(
@@ -19,9 +20,11 @@ const RootStack = createStackNavigator(
     Services:Services,
     HomeScreen : HomeScreen ,
     AdminServices:AdminServices,
+    SplashScreenVideo:SplashScreenVideo,
   },
   {
-    initialRouteName: 'Home',
+    initialRouteName: 'SplashScreenVideo',
+   
     defaultNavigationOptions: {
       headerTitleStyle: {
         fontWeight: 'bold',

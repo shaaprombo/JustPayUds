@@ -14,6 +14,7 @@ import firebase from '@react-native-firebase/app';
 import storage from '@react-native-firebase/storage';
 import * as Progress from 'react-native-progress';
 import { KeyboardAwareScrollView } from 'react-native-keyboard-aware-scroll-view';
+import {submitService} from './../../components/ApiServices';
 import database from '@react-native-firebase/database';
 import { Text,Thumbnail,Container, Header, Left, Body, Right, Title, Subtitle,
    Content, Form, Item, Input,Button,CardItem,Separator , H1, H2, H3, Card,Label } from 'native-base'
@@ -25,26 +26,6 @@ import { Text,Thumbnail,Container, Header, Left, Body, Right, Title, Subtitle,
 
 
 
-export const submitService = (NomService, PrixService, DescriptionService,image) => {
-  return new Promise(function(resolve, reject){
-      let dataToSave = {  
-          Nom: NomService,
-          Prix: PrixService,
-          Description: DescriptionService,
-          image: image ,
-      };
-      database()
-          .ref('Services/' )
-          .push(dataToSave)
-          .then((snapshot)=>{
-              resolve(snapshot);
-          })
-          .catch(err => {
-              reject(err);
-          });
-  });
-};
-
 export default function UploadScreen() {
 
 const [image, setImage] = useState(null);
@@ -55,22 +36,10 @@ const [PrixService, setPrixService] = useState('');
 const [DescriptionService, setDescriptionService] = useState('');
 const [services, setServices] = React.useState([]);
 const [Lien, setLien] = React.useState([]);
+const [Id, setId] = useState(null);
 
 //const [confirmPassword, setConfirmPassword] = useState('');
 
-  const saveNewServices = () => {
-    submitService(NomService, PrixService, DescriptionService,image)
-        .then(result => {
-          setNomService('');
-          setPrixService('');
-           setDescriptionService('');
-           setImage('');
-        }).catch(error => {
-            console.log(error);
-        });
-        alert('yes ok!');
-        
-  };
 
 
   const onFooterLinkPress = () => {
@@ -128,11 +97,13 @@ const [Lien, setLien] = React.useState([]);
         
 
 
-        submitService(NomService, PrixService, DescriptionService,downloadURL)
+    submitService(Id,NomService, PrixService, DescriptionService,downloadURL)
     .then(result => {
+      setId(null);
       setNomService('');
       setPrixService('');
-       setDescriptionService('');
+      setDescriptionService('');
+     
        
     }).catch(error => {
         console.log(error);
@@ -236,7 +207,7 @@ const [Lien, setLien] = React.useState([]);
         ) : null}
 
         {uploading ? (
-          <View style={styles.progressBarContainer}>
+          <View >
             <Progress.Bar progress={transferred} width={300} />
           </View>
         ) : (
