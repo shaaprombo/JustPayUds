@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { Icon } from 'react-native-elements';
 import { Container, Header, Content, List, ListItem, Left, 
-  Body, Right, Thumbnail, Text ,Button, Icon , Switch ,Separator , H1, H2, H3, Card,Label } from 'native-base';
+  Body, Right, Thumbnail, Text ,Button, Switch ,Separator , H1, H2, H3, Card,Label } from 'native-base';
 import database from '@react-native-firebase/database';
 
 export default function AdminServices({ navigation }){
@@ -61,7 +62,7 @@ export default function AdminServices({ navigation }){
            <ListItem icon>
             <Left>
               <Button style={{ backgroundColor: "#FF9501" }} onPress={()=>deleteUser(item)}>
-                <Icon active name="trash" />
+                <Icon active name="delete" />
               </Button>
             </Left>
             <Body>

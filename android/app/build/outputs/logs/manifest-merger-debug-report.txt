@@ -22,6 +22,7 @@ MERGED from [:react-native-safe-area-context] /home/the_lovers/UV/Projets/node_m
 MERGED from [:react-native-screens] /home/the_lovers/UV/Projets/node_modules/react-native-screens/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-splash-screen] /home/the_lovers/UV/Projets/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:react-native-vector-icons] /home/the_lovers/UV/Projets/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-video] /home/the_lovers/UV/Projets/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.62.2] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/1665221797d3b5417153b109043f8c34/jetified-react-native-0.62.2/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/3a50861bf9424135f9d1f8134a5c6c92/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:flipper:2.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/3bd9647c65f526dde67538f9fb7407bf/flipper-2.0.0/AndroidManifest.xml:2:1-9:12
@@ -97,6 +98,7 @@ MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/the_lovers/.gradle/cac
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/a4adb77d995fc1b284491461a76c178b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/dd0048b607f06238077c764105cdeff1/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/fe13981b0c2e5d73803d38f1bb7f32dd/jetified-fbcore-2.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/946e7b56b61c3a528307cdae06c79244/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:2:1-12:12
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/6a33ed8952a8d2fbcb3c13e05daea5b6/annotation-0.8.2/AndroidManifest.xml:2:1-13:12
 INJECTED from /home/the_lovers/UV/Projets/android/app/src/debug/AndroidManifest.xml:2:1-8:12
 INJECTED from /home/the_lovers/UV/Projets/android/app/src/debug/AndroidManifest.xml:2:1-8:12
@@ -309,6 +311,8 @@ MERGED from [:react-native-splash-screen] /home/the_lovers/UV/Projets/node_modul
 MERGED from [:react-native-splash-screen] /home/the_lovers/UV/Projets/node_modules/react-native-splash-screen/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/the_lovers/UV/Projets/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-vector-icons] /home/the_lovers/UV/Projets/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /home/the_lovers/UV/Projets/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] /home/the_lovers/UV/Projets/node_modules/react-native-video/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.62.2] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/1665221797d3b5417153b109043f8c34/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.62.2] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/1665221797d3b5417153b109043f8c34/jetified-react-native-0.62.2/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/3a50861bf9424135f9d1f8134a5c6c92/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
@@ -459,6 +463,8 @@ MERGED from [androidx.print:print:1.0.0] /home/the_lovers/.gradle/caches/transfo
 MERGED from [androidx.print:print:1.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/dd0048b607f06238077c764105cdeff1/print-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/fe13981b0c2e5d73803d38f1bb7f32dd/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:fbcore:2.0.0] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/fe13981b0c2e5d73803d38f1bb7f32dd/jetified-fbcore-2.0.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/946e7b56b61c3a528307cdae06c79244/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.4] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/946e7b56b61c3a528307cdae06c79244/jetified-android-scalablevideoview-1.0.4/AndroidManifest.xml:8:5-10:41
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/6a33ed8952a8d2fbcb3c13e05daea5b6/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.soloader:annotation:0.8.2] /home/the_lovers/.gradle/caches/transforms-2/files-2.1/6a33ed8952a8d2fbcb3c13e05daea5b6/annotation-0.8.2/AndroidManifest.xml:7:5-9:41
 INJECTED from /home/the_lovers/UV/Projets/android/app/src/debug/AndroidManifest.xml

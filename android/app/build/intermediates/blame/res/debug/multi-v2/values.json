@@ -406,6 +406,23 @@
                         "endColumns": "39,46,42,54,46,53,51,48,60,49",
                         "endOffsets": "37959,38006,38395,38589,38636,39527,39579,39628,39689,39739"
                     }
+                },
+                {
+                    "source": "/home/the_lovers/.gradle/caches/transforms-2/files-2.1/946e7b56b61c3a528307cdae06c79244/jetified-android-scalablevideoview-1.0.4/res/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "1028",
+                        "endOffsets": "1079"
+                    },
+                    "to": {
+                        "startLines": "7414",
+                        "startColumns": "4",
+                        "startOffsets": "458079",
+                        "endColumns": "1028",
+                        "endOffsets": "459103"
+                    }
                 }
             ]
         }

@@ -6,12 +6,12 @@ import { Image} from 'react-native';
 export default function SplashScreenVideo  ({navigation})  {
     setTimeout(()=>{navigation.replace('Home')},15000)
   return(<Image
-            style={{ width: 100, height: 100 ,margin:170}}
+            style={{ width: 100, height: 100 ,margin:155}}
             source={require('./loo.png')}
           />) 
 };
 SplashScreenVideo.navigationOptions = ({ navigation }) => ({
-  title: 'Login',
+  title: 'Lo',
   headerShown: false,
   headerMode:'none',
 });
